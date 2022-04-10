@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "allfes_scraper"
+version = "0.1.0"
+description = ""
+authors = ["maejimayuto <maejimayuto@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Scrapy = "^2.6.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
